@@ -29,3 +29,13 @@ document.querySelector("form").addEventListener("submit", function(event) {
 
     this.reset();
 });
+
+
+
+// Adiciona um efeito simples de clique para destacar a mensagem do projeto
+document.querySelectorAll('.card-imagem').forEach(card => {
+    card.addEventListener('click', () => {
+        const titulo = card.querySelector('h3').innerText;
+        alert(`Explorando: ${titulo}\nAgro Forte, Futuro Sustentável!`);
+    });
+});
