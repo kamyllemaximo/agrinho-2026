@@ -56,3 +56,45 @@ footer{
     padding:15px;
 }
 
+
+
+
+
+.galeria-agrinho {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f9f4; /* Verde bem claro */
+}
+
+.container-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Ajusta para celular */
+}
+
+.card-imagem {
+    position: relative;
+    width: 45%;
+    min-width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.card-imagem:hover img {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.legenda {
+    padding: 15px;
+    background: #2e7d32; /* Verde forte sustentável */
+    color: white;
+}
