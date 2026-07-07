@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,7 +11,6 @@
 <header>
     <h1>Agro Forte, Futuro Sustentável</h1>
     <p>Produzir hoje preservando o amanhã</p>
-
     <nav>
         <a href="#producao">Produção Agrícola</a>
         <a href="#sustentabilidade">Sustentabilidade</a>
@@ -45,23 +43,42 @@
 <section id="futuro">
     <h2>Soluções e Futuro</h2>
     <p>Investir em reflorestamento, agricultura regenerativa, energias limpas e novas tecnologias permite aumentar a produtividade sem comprometer os recursos naturais das futuras gerações.</p>
-
     <button onclick="mostrarMensagem()">Saiba Mais</button>
 </section>
 
 <section id="contato">
     <h2>Contato e Conscientização</h2>
-
     <form>
         <input type="text" placeholder="Seu nome" required>
         <input type="email" placeholder="Seu e-mail" required>
         <textarea placeholder="Sua mensagem"></textarea>
         <button type="submit">Enviar</button>
     </form>
+    <p class="frase">Preservar o meio ambiente é garantir qualidade de vida para as próximas gerações.</p>
+</section>
 
-    <p class="frase">
-        Preservar o meio ambiente é garantir qualidade de vida para as próximas gerações.
-    </p>
+<!-- SEÇÃO DA GALERIA (AGORA DENTRO DO BODY) -->
+<section class="galeria-agrinho">
+    <h2>Nosso Futuro Sustentável</h2>
+    <div class="container-imagens">
+        <div class="card-imagem">
+            <!-- ATENÇÃO: Adicionado "assets/" no caminho -->
+            <img src="assets/imagem-tecnologia.jpg" alt="Inovação e Tecnologia no Campo">
+            <div class="legenda">
+                <h3>Inovação e Tecnologia</h3>
+                <p>Drones e irrigação inteligente otimizando a produção.</p>
+            </div>
+        </div>
+
+        <div class="card-imagem">
+            <!-- ATENÇÃO: Adicionado "assets/" no caminho -->
+            <img src="assets/imagem-sustentabilidade.jpg" alt="Regeneração e o Legado para o Futuro">
+            <div class="legenda">
+                <h3>Legado e Futuro</h3>
+                <p>Preservando hoje para garantir o amanhã das novas gerações.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <footer>
@@ -71,33 +88,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
- 
-
-<!-- Seção de Galeria do Projeto Agrinho -->
-<section class="galeria-agrinho">
-    <h2>Nosso Futuro Sustentável</h2>
-    
-    <div class="container-imagens">
-        <!-- Imagem 1: Foco em Tecnologia -->
-        <div class="card-imagem">
-            <img src="imagem-tecnologia.jpg" alt="Inovação e Tecnologia no Campo">
-            <div class="legenda">
-                <h3>Inovação e Tecnologia</h3>
-                <p>Drones e irrigação inteligente otimizando a produção [1].</p>
-            </div>
-        </div>
-
-        <!-- Imagem 2: Foco em Sustentabilidade -->
-        <div class="card-imagem">
-            <img src="imagem-sustentabilidade.jpg" alt="Regeneração e o Legado para o Futuro">
-            <div class="legenda">
-                <h3>Legado e Futuro</h3>
-                <p>Preservando hoje para garantir o amanhã das novas gerações [2].</p>
-            </div>
-        </div>
-    </div>
-</section>
