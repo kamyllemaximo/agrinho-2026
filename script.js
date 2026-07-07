@@ -1,38 +1,16 @@
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    alert("Mensagem enviada com sucesso!");
-
-    this.reset();
-});
-
+ // 1. Função do botão "Saiba Mais"
 function mostrarMensagem() {
     alert("A sustentabilidade no agronegócio é fundamental para garantir alimentos e preservar os recursos naturais.");
 }
 
+// 2. Função do formulário de contato
 document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
+    event.preventDefault(); // Impede o recarregamento da página
     alert("Mensagem enviada com sucesso!");
-
-    this.reset();
+    this.reset(); // Limpa o formulário
 });
 
-function mostrarMensagem() {
-    alert("A sustentabilidade no agronegócio é fundamental para garantir alimentos e preservar os recursos naturais.");
-}
-
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    alert("Mensagem enviada com sucesso!");
-
-    this.reset();
-});
-
-
-
-// Adiciona um efeito simples de clique para destacar a mensagem do projeto
+// 3. Efeito de clique nos cards da galeria
 document.querySelectorAll('.card-imagem').forEach(card => {
     card.addEventListener('click', () => {
         const titulo = card.querySelector('h3').innerText;
